@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.number-1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: url("../assets/images/header-bg.png");
+    font-size: 1em;
+}
+
+.logo-treloo {
+font-size: 48px;
+line-height: 72px;
+}
+
+
+/* Navbar */
+#navbar .container{
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+    padding: 0 1em;
+    font-size: 1.2em;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* makes the navbar elements - horizontal*/
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn-blog {
+    display: inline-block;
+    color: blue;
+    background: #fff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    /* padding: 1em; */
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 10em;
+    line-height:96px;
+}
+#showcase .showcase-content  {
+    font-size: 10em;
+    line-height:96px;
+}
