@@ -1,0 +1,129 @@
+
+.number-2{
+    width:80%;
+    height: 300px;
+    background: transparent;
+    position: relative;
+    left: 10rem;
+}
+
+.number-2 p{
+    font-size: 1.5rem;
+}
+.number-2 i{
+    color: #659EF7;
+}
+.number-2 h6{
+    font-size: 2rem;
+}
+
+.number-2 .left-box{
+    width: 20%;
+    height: 200px;
+    /* background: red; */
+    border-radius: 15px;
+}
+
+.number-2 .left-box ul{
+    height: 60%;
+    width: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+    /* margin-top: 3rem; */
+    position: absolute;
+    top: 3rem;
+    left: 15rem;
+
+}
+
+.number-2 .left-box ul li{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    font-size: 1rem;
+    margin: 0.5rem 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.number-2 .left-box ul li:hover {
+    background: #a8c2eb;
+    border-radius: 20px;
+    color: #fff;
+}
+.number-2 .wide-box{
+    width: 80%;
+    height: 70%;
+    background: #fff;
+    position: absolute;
+    top: 9rem;
+    left: 3rem;
+    border-radius: 15px;
+}
+
+.number-2 .wide-box ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    font-size: 2rem;
+    width: 80%;
+}
+
+.number-2 .wide-box ul li{
+    width: max-content;
+    height: 80%;
+    display: flex;
+    margin: 3rem 3rem;
+    padding: 5rem;
+    justify-content: space-around;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+}
+
+.number-2 .wide-box .mid-div i{
+    border: 1px dashed grey;
+    border-radius:50% ;
+    padding: 0.5rem;
+}
+
+.number-2 .wide-box ul li div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: max-content;
+
+    
+}
+
+.number-2 .wide-box ul li:hover{
+    border: 2px solid #659EF7;
+    border-radius: 20px;
+}
+
+.number-2 .wide-box ul .right-li{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 40%;
+    background: #659EF7;
+    color: #fff;
+   
+}
+.number-2 .wide-box ul .right-li i{
+    color: #fff;
+}
+.number-2 .wide-box ul .right-li:hover{
+    border-color: #fff;
+    border-radius: 40%;
+}
