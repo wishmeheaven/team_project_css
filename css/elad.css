@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap");
+.number-4 {
+  height: 100vh;
+  width: 100%;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 7rem;
+}
+
+.number-4 .page-4-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+}
+
+.number-4 h1 {
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  font-weight: 600;
+}
+
+.number-4 .nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.number-4 .link-pressed {
+  width: 12rem;
+  height: 4.6rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  color: #3e86f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.number-4 .link {
+  font-size: 18px;
+  color: #00000080;
+  font-weight: 600;
+}
+
+.number-4 .cards-container {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-4 .card {
+  height: 29.3rem;
+  width: 28rem;
+  box-shadow: 4px 4px 25px 0px #0000001a;
+  border-radius: 2.5rem;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.number-4 .card-image1 {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  left: 1rem;
+  top: 1rem;
+
+  background: url("/assets/images/unsplash_DlkF4-dbCOU.png"), #c4c4c4;
+  border-radius: 25px;
+}
+.number-4 .card-image2 {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  left: 1rem;
+  top: 1rem;
+
+  background: url("/assets/images/2.png"), #c4c4c4;
+  border-radius: 25px;
+}
+.number-4 .card-image3 {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  left: 1rem;
+  top: 1rem;
+
+  background: url("/assets/images/3.png"), #c4c4c4;
+  border-radius: 25px;
+}
+.number-4 .card-image4 {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  left: 1rem;
+  top: 1rem;
+
+  background: url("/assets/images/4.png"), #c4c4c4;
+  border-radius: 25px;
+}
+
+.number-4 .rating {
+  background: #ffffff;
+  border-radius: 25px;
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-4 .star-image {
+  width: 15px;
+  height: 15px;
+  background: url("/assets/images/Star.png");
+}
+
+.number-4 .card > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.number-4 .location {
+  display: flex;
+}
+.number-4 .location > span {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.number-4 .location-image {
+  width: 17px;
+  height: 17px;
+  background: url("/assets/images/Location.png");
+}
